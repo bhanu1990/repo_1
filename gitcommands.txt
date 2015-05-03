@@ -1,0 +1,21 @@
+GIT commands
+
+Global setup
+git config --global user.name "bhanu1990"
+git config --global user.email "bhanu1990@users.noreply.github.com"
+
+Next steps
+mkdir new_repo_folder
+cs new_repo_folder
+git init
+touch readme_file.markdown
+git add -A ### adds all
+git add readme_file #### adds readme file
+git commit -m 'insert message'
+git remote add origin git@github.com:bhanu1990/new_repo_folder.git
+git push -u origin master
+
+EXISTING GIT REPO
+cd exisiting_git_repo
+git remote add origin git@github.com:bhanu1990/existing_repo.git
+git push -u origin master
